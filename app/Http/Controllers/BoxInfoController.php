@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\BoxInfo;
-use Illuminate\Http\Request;
 
 class BoxInfoController extends Controller
 {

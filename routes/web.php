@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BoxInfoController;
+use App\Http\Controllers\SecondTaskController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,7 @@ Route::get('/', function () {
 });
 Route::get('index', [BoxInfoController::class, 'box_info'])->name('box_info');
 Route::get('get_count', [BoxInfoController::class, 'box_count'])->name('get_count');
+
+Route::get('second_tast', [SecondTaskController::class, 'second_tast'])->name('second_tast');
+Route::get('shuffle_array', [SecondTaskController::class, 'shuffle_array'])->name('shuffle_array');
+Route::get('reshuffle_array', [SecondTaskController::class, 'reshuffle_array'])->name('reshuffle_array');
