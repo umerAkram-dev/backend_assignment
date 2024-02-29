@@ -53,7 +53,7 @@
 </head>
 
 <body>
-
+    <a href="{{ route('second_task') }}">This is the Second Task</a>
     <div class="container">
 
     </div>

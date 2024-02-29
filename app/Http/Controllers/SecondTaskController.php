@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class SecondTaskController extends Controller
 {
-   public function second_tast() {
+   public function second_task() {
     $my_array =['red','black','pink','green','blue'];
     shuffle($my_array);
     // dd($my_array);
